@@ -118,3 +118,11 @@ non-MSI hardware. Privileged writes remain locked to the real `/sys` tree.
 ## License
 
 MIT. `msi-ec` itself is GPL-2.0; this userspace tool is separate.
+
+## AI disclosure
+
+This repository was created with AI assistance, in line with the
+[msi-ec AI policy](https://github.com/BeardOverflow/msi-ec#ai-policy):
+
+- **LLM:** Qwen3.8-Flash-Next
+- **Agent tool:** OpenCode
