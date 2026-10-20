@@ -1,0 +1,19 @@
+[package]
+name = "msi-ec-tui"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+description = "Terminal UI for the msi-ec kernel driver (MSI laptops)"
+license = "MIT"
+repository = "https://github.com/freba/msi-ec-tui"
+readme = "README.md"
+
+[dependencies]
+anyhow = "1"
+crossterm = "0.28"
+ratatui = "0.29"
+
+[profile.release]
+lto = true
+strip = true
+codegen-units = 1
